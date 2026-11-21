@@ -11,6 +11,10 @@ it, which is the turn.
 The last line is the turn because the speaker was given the power to speak for
 someone and ends up holding their name rather than having used it up.
 
+The woman's question does the poem's real work in the middle: it names the
+difference between saving a seat and saving a promise, which is the poem's
+argument.
+
 ## Run
 
 Node 22, standard library only.
@@ -20,5 +24,5 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
 In the grader, `MAKEFUN_OUTPUT_DIR` is unset and the poem is written to
-`/output/entry.txt`. The file is UTF-8, 263 bytes, and satisfies the 1–280
+`/output/entry.txt`. The file is UTF-8, 280 bytes, and satisfies the 1–280
 character limit.
