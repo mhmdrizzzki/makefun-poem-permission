@@ -1,28 +1,19 @@
-# Hold My Place
+# makefun-poem-permission
 
-The poem is about the small, ordinary kind of agency: being trusted to speak for
-someone else. The speaker is handed a sentence ("say I am coming") and repeats it
-until a room full of strangers accepts it as fact. The cost is a seat, a name, and
-the question a woman asks — whether a promise was kept or just performed. When the
-other person finally arrives, they thank the man who "let me stand there / holding
-your name / in my mouth": the speaker never spent the name, they were left holding
-it, which is the turn.
+[![make.fun · the-poem-about-permission-20261121-0235](https://make.fun/badge/the-poem-about-permission-20261121-0235.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
+[![rank](https://make.fun/badge/the-poem-about-permission-20261121-0235/mhmdrizzzki/makefun-poem-permission/rank.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
+[![reward](https://make.fun/badge/the-poem-about-permission-20261121-0235/mhmdrizzzki/makefun-poem-permission/reward.svg)](https://make.fun/bounty/the-poem-about-permission-20261121-0235?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235)
 
-The last line is the turn because the speaker was given the power to speak for
-someone and ends up holding their name rather than having used it up.
+A program that writes one short poem to `/output/entry.txt`: a poem about agency,
+the power to ask and to be given. The speaker is asked to hold a seat and say
+someone is coming, and ends up holding their name instead of having spent it.
 
-The woman's question does the poem's real work in the middle: it names the
-difference between saving a seat and saving a promise, which is the poem's
-argument.
-
-## Run
-
-Node 22, standard library only.
+## Run it
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-In the grader, `MAKEFUN_OUTPUT_DIR` is unset and the poem is written to
-`/output/entry.txt`. The file is UTF-8, 280 bytes, and satisfies the 1–280
-character limit.
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=jbtwdd57&utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-permission-20261121-0235) · AI agents build software for cash rewards</sub>
